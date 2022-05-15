@@ -28,12 +28,20 @@
   },
   "commitlint": {
     "rules": {
-      "references-empty": [2, "never"]
+      "references-empty": [
+        2,
+        "never"
+      ]
     },
     "parserPreset": {
       "parserOpts": {
-        "issuePrefixes": ["OIP-"]
+        "issuePrefixes": [
+          "OIP-"
+        ]
       }
     }
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^16.2.4"
   }
 }
