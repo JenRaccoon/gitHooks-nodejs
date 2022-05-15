@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "prepare": "husky install",
-    "lint":"eslint src/**"
+    "lint":"eslint src/** --fix"
   },
   "keywords": [],
   "author": "Jen",
