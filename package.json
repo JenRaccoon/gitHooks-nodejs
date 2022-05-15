@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Jen",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.0",
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit":[
-    "test"
-  ]
+    "husky": "^8.0.1",
+    "jest": "^28.1.0"
+  }
 }
